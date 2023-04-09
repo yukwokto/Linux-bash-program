@@ -9,7 +9,7 @@ This program requires Bash to run. It should work on most Unix-based systems.
 
 To use this program, run the script with the following arguments:
 ```bash
-./program.sh [filename] [answer1] [answer2] [answer3] ...
+./program-1.sh [filename] [answer1] [answer2] [answer3] ...
 ```
 
 The program will create a new text file with the provided filename and append the student's ID number and answers to the file. 
@@ -32,9 +32,9 @@ This bash program is designed to take input arguments in the form of id:name:gra
 - The student with the lowest grade, including their ID, name, and grade
 
 ### Usage
-To use this program, run the exam_stats.sh script followed by one or more arguments in the format of id:name:grade, like so:
+To use this program, run the program-1.sh script followed by one or more arguments in the format of id:name:grade, like so:
 ```bash
-./exam_stats.sh id1:name1:grade1 id2:name2:grade2 id3:name3:grade3 ...
+./program-2.sh id1:name1:grade1 id2:name2:grade2 id3:name3:grade3 ...
 ```
 
 ### Input Validation
